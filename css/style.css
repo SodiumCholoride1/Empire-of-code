@@ -1,0 +1,471 @@
+/* ================== Navbar Start ====================== */
+
+.navbar {
+    padding: 0 10rem;
+}
+
+.nav-item {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 0 .6rem;
+    color: black;
+}
+
+.header-area .main-menu .navbar-nav .active a {
+    background: linear-gradient(45deg, lightsalmon, coral);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover {
+    background: linear-gradient(45deg, lightsalmon, coral);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#logo {
+    height: 2.5rem;
+}
+
+.match {
+    width: 90%;
+    padding: 0 10px;
+}
+
+
+/* ================== Navbar End ======================== */
+
+
+/* ================== Main Area Start======================== */
+
+
+/* ================== Banner Area Start======================== */
+
+#fName {
+    color: #6C3Ec3;
+}
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 33%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+}
+
+.title-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    line-height: 72px;
+}
+
+.site-main .site-banner .banner-image {
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+.button {
+    position: relative;
+    font: normal 500 16px/20px Arial, Helvetica, sans-serif;
+    border: 3px transparent solid;
+    border-radius: 4px;
+}
+
+.button.primary-button {
+    background: linear-gradient(45deg, lightsalmon, coral);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition-property: background;
+    transition-duration: .7s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 2px 2px 10px lightgrey;
+}
+
+.button.primary-button:hover {
+    background: whitesmoke;
+    color: black;
+    background-clip: padding-box;
+}
+
+.button.primary-button::after,
+.button.secondary-button::after {
+    position: absolute;
+    content: " ";
+    background: linear-gradient(45deg, lightsalmon, coral);
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.button.secondary-button {
+    background: whitesmoke;
+    background-clip: padding-box;
+    transition-property: background;
+    transition-duration: .7s;
+    transition-timing-function: ease;
+    box-shadow: 2px 2px 10px lightgrey;
+}
+
+.button.secondary-button:hover {
+    background: linear-gradient(45deg, lightsalmon, coral);
+    color: whitesmoke;
+}
+
+.opps {
+    margin-left: 60px;
+}
+
+.radius {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 10px solid #333333;
+}
+
+
+/* ================== Banner Area End======================== */
+
+
+/* ================== About area start======================== */
+
+.site-main .about-area {
+    padding: 5rem 3rem;
+}
+
+.site-main .about-area h3>span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    word-spacing: 15px;
+}
+
+p.para {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.about-image {
+    padding: 20px 0;
+}
+
+.cope {
+    bottom: -10px;
+}
+
+
+/* ================== About Area End======================== */
+
+
+/* ================== Brand Area Start======================== */
+
+.single-brand img {
+    height: 70px;
+    width: 120px;
+}
+
+.site-main .brand-area {
+    padding: 5rem 6rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 .single-brand {
+    margin: .9rem;
+    border: 1px solid whitesmoke;
+    padding: .2rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: .4s;
+    transition-timing-function: ease;
+}
+
+.site-main .brand-area .first-row .col-lg-4 .single-brand:hover {
+    box-shadow: 2px 2px 5px darkgray;
+    transform: scale(1.1);
+}
+
+.site-main .brand-area .first-row .col-lg-4 .single-brand:hover>img {
+    filter: blur(.5);
+}
+
+.site-main .brand-area .experience-area {
+    padding-left: 1rem;
+}
+
+.site-main .brand-area .experience-area span {
+    display: block;
+    font-family: cursive;
+}
+
+.site-main .brand-area .experience-area .years-area {
+    position: relative;
+    height: 200px;
+    padding-left: 8rem;
+    padding-top: 20px;
+}
+
+.site-main .brand-area .experience-area .years-area img {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 43px;
+}
+
+.site-main .brand-area .experience-area .call-area {
+    padding-left: 10rem;
+    padding-top: 6.5rem;
+}
+
+.site-main .brand-area .experience-area .call-area #fnt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.site-main .brand-area .experience-area .call-area .call-now-area {}
+
+.site-main .brand-area .bg-pannel {
+    height: 400px;
+    width: 400px;
+    background: rgb(248, 218, 197);
+    position: absolute;
+    top: 0%;
+    left: -190px;
+    margin-left: 340px;
+    z-index: -1;
+}
+
+.site-main .brand-area .fa-phone-alt:hover {
+    color: #4862a3;
+}
+
+
+/* ================== Brand Area End======================== */
+
+
+/* ================== Services area start======================== */
+
+.site-main .services-area .services-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    word-spacing: 15px;
+}
+
+.site-main .services-area {
+    padding: 5rem 8rem;
+}
+
+.site-main .services-area .card-title {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.site-main .services-area .card-text {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-main .services-area .services {
+    width: 12rem;
+    transition-property: box-shadow;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    margin: 3rem 0;
+}
+
+.site-main .services-area .services:hover {
+    box-shadow: 5px 5px 10px rgb(219, 209, 209);
+    border-radius: 5px;
+}
+
+
+/* ================== Services area End======================== */
+
+
+/* ================== Projects area Start======================== */
+
+.site-main .projects-area {
+    padding: 5rem 0;
+}
+
+.site-main .projects-area .projects-header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.site-main .projects-area .button-group button {
+    background: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 500 normal 16px;
+    padding-bottom: 80px;
+}
+
+.site-main .projects-area .button-group button+button {
+    padding-left: 3rem;
+}
+
+.site-main .projects-area .button-group button:focus,
+.site-main .projects-area .button-group button:hover,
+.site-main .projects-area .button-group button:active {
+    outline: none;
+    box-shadow: none;
+}
+
+
+/* ================== Projects  area End======================== */
+
+
+/* ================== Client area start======================== */
+
+.site-main .client-area {
+    padding-top: 5rem;
+}
+
+.site-main .client-area .client-header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.site-main .client-area .client-header p {
+    padding: 3rem 2rem;
+}
+
+.site-main .client-area .client {
+    background: #ffffff10;
+    margin: 1rem;
+    box-shadow: 2px 2px 20px whitesmoke;
+    border-radius: 5px;
+}
+
+.site-main .client-area .client-img {
+    padding: 20px 5px;
+    border-radius: 50%;
+}
+
+.site-main .client-area .client .clients-name {
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.site-main .client-area .client .clients-talk {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-main .client-area .owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+    padding: .5rem 1rem;
+}
+
+.site-main .client-area .owl-carousel .owl-dots .owl-dot .active span {
+    width: 12px;
+    height: 12px;
+    background-color: coral;
+}
+
+
+/* ================== Client area End======================== */
+
+
+/* ================== Subscribe area start ======================== */
+
+.site-main .subscribe-area .subscribe {
+    background-image: url(../images/bqfgee.jpg);
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+
+.site-main .subscribe-area .subscribe .subscribe-title h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+    padding: 1rem 3rem;
+}
+
+.site-main .subscribe-area .subscribe .subscribe-title p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 1rem 0;
+}
+
+.site-main .subscribe-area .input-textbox input {
+    width: 400px;
+}
+
+
+/* ================== Subscribe area End======================== */
+
+
+/* ================== Footer area start======================== */
+
+.foot-area {
+    padding-top: 3rem;
+}
+
+.foot-area .logo-area img {
+    padding: 2rem 0;
+}
+
+.foot-area .social h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 1rem;
+}
+
+.foot-area .social .fai {
+    font-size: 40px;
+    margin-top: 1rem;
+}
+
+.foot-area .social .icons .fai {
+    margin: 20px;
+    color: #333333;
+    transition-property: transform;
+    transition-duration: .4s;
+    transition-timing-function: ease;
+}
+
+.foot-area .social .icons .fai:hover {
+    color: white;
+    background-color: #4862a3;
+    border-radius: 50%;
+    transform: scale(1.2);
+}
+
+
+/* ================== Footer area End======================== */
+
+
+/* ================== Main Area End======================== */
